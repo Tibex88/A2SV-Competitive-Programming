@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-good-pairs/submissions/867081080/
 
 class Solution {
 public:
