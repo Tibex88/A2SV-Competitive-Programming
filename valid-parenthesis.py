@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/valid-parentheses/submissions/878564727/
+
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -11,6 +13,8 @@ class Solution:
                     return False
             else:
                 stack.append(c)
-        return stack if not True else False
+        return True if not stack else False
+                
+        
                 
         
